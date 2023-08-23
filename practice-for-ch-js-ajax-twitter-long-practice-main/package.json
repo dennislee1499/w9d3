@@ -19,5 +19,15 @@
     "postinstall": "npm run build && npm run build:css",
     "watch": "webpack --mode=development --watch",
     "build:css": "sass ./app/assets/stylesheets/application.scss ./app/assets/builds/application.css --no-source-map --load-path=node_modules"
-  }
+  },
+  "description": "Today you will be creating a clone of Twitter called AJAX Twitter. You will start with a static Twitter clone without JavaScript. Step by step, you'll replace traditional form submissions with AJAX requests that do not cause a full page refresh, sprinkling in some extra JavaScript interactivity while you're at it!",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
